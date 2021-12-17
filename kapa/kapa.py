@@ -287,7 +287,7 @@ def kinase_enrichment(siteratiodf,unitogenedict,kindict,input_type):
  
     
     
-def kinenrich(siteratio_dir,input_type,output_dir,exp_label='',proratio_dir="None",ratio_output=False,log2trans=True):     
+def kapa(siteratio_dir,input_type,output_dir,exp_label='',proratio_dir="None",ratio_output=False,log2trans=True):     
     #input_type: 'UniprotAC' or "genename"
     module_dir = os.path.abspath(os.path.dirname(__file__))
     unitogenedict = read_uniprot2genename(module_dir+'/unigenedict.csv') 
@@ -342,7 +342,6 @@ def kinenrich(siteratio_dir,input_type,output_dir,exp_label='',proratio_dir="Non
     return()
 
 
-conv_MQtable("C:/Users/gy199/OneDrive/Desktop/Kinase_enrichment/12072021Haiping/HCT116 SILAC Large scale Phospho (STY)Sites_addcontrol without proteasome inhibitor.txt","C:/Users/gy199/OneDrive/Desktop/Kinase_enrichment/",siteorpro='site',exp_label="H/L",output_label="HL")
-conv_MQtable("C:/Users/gy199/OneDrive/Desktop/Kinase_enrichment/12072021Haiping/proteinGroups.txt","C:/Users/gy199/OneDrive/Desktop/Kinase_enrichment/",siteorpro='protein',exp_label="H/L",output_label="HL")
+
 
  

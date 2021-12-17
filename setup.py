@@ -8,8 +8,8 @@ here = pathlib.Path(__file__).parent.resolve()
 #long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
-    name='kinenrich',  
-    version='0.1.0', 
+    name='kapa',  
+    version='0.0.1', 
     description='Kinase Activity Profiling Analysis',  
     long_description="",
     long_description_content_type='text/plain', 

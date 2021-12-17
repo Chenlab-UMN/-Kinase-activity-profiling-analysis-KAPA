@@ -1,13 +1,13 @@
-There are two main functions in this package, "kinenrich", is coded for performing kinase activity profiling analysis, while "conv_MQtable" is built for converting MaxQuant outputs to stardard input of "kinenrich".
+There are two main functions in this package, "kapa", is coded for performing kinase activity profiling analysis, while "conv_MQtable" is built for converting MaxQuant outputs to stardard input of "kinenrich".
 
 
-The site.csv and protein.csv can be used to test the kinenrich function
+The site.csv and protein.csv can be used to test the kapa function
 
-kinenrich(siteratio_dir = current_directory+'site.csv', input_type = 'protein', output_dir = desired_output_directory, exp_label='', proratio_dir=current_directory+'protein.csv',  output_ratio=False, log2trans=True) 
+kapa(siteratio_dir = current_directory+'site.csv', input_type = 'protein', output_dir = desired_output_directory, exp_label='', proratio_dir=current_directory+'protein.csv',  output_ratio=False, log2trans=True) 
 
 
-Parameters of kinenrich 
-kinenrich(siteratio_dir, input_type, output_dir, exp_label='', proratio_dir="None",  output_ratio=False, log2trans=True) 
+Parameters of kapa 
+kapa(siteratio_dir, input_type, output_dir, exp_label='', proratio_dir="None",  output_ratio=False, log2trans=True) 
 
 Perform kinase activity profiling analysis based on ratio of kinase substrates
 Parameters can be customized through key-value pairs as below.
