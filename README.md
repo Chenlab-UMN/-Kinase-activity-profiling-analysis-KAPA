@@ -1,7 +1,10 @@
-There are two main functions in this package, "kapa", is coded for performing kinase activity profiling analysis, while "conv_MQtable" is built for converting MaxQuant outputs to stardard input of "kinenrich".
+There are two main functions in this package, "kapa", is coded for performing kinase activity profiling analysis, while "conv_MQtable" is built for converting MaxQuant outputs to stardard input of "kapa".
 
 
-The site.csv and protein.csv can be used to test the kapa function
+
+
+The site.csv and protein.csv can be used to test the kapa function with the following code
+
 
 kapa(siteratio_dir = current_directory+'site.csv', input_type = 'protein', output_dir = desired_output_directory, exp_label='', proratio_dir=current_directory+'protein.csv',  output_ratio=False, log2trans=True) 
 
